@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second assignment</title>
+
+</head>
+<body>
+    <h1>SVG</h1>
+    <svg>
+        <circle cx="100" cy="100" r="30" stroke="grey" stroke-width="4" fill="orange" />
+        </svg>
+
+    <svg width="200" height="100">
+        <rect width="200" height="100" stroke="yellow" stroke-width="6" fill="green"/>
+        </svg>
+        
+    <svg width="200" height="200">
+        <rect x="10" y="10" rx="20" ry="20" width="100" height="100" stroke-width="6" fill="red"/>
+    </svg>
+
+
+    <h1>Canvas</h1>
+    <canvas height="200" width="200" style="border: 2px solid blue;"></canvas>
+
+
+<h2>Media</h2>
+<video controls>
+<source src="mov_bbb.mp4" type="video/mp4">
+
+</video><br>
+
+<audio controls>
+<source src="horse.ogv" type="audio/ogg">
+
+</audio><br>
+
+<iframe width="500px" height="500px" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe><br>
+
+
+<h1>Geolocation api </h1>
+<button onclick="getLocation()">Try It</button>
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
