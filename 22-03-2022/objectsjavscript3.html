@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            my first webpage
+        </title>
+    </head>
+    <body>
+        <h1>
+            javascript objects
+        </h1>
+
+        <p id ="demo"></p>
+        <script>
+            //create an object 
+            const person = {
+                 firstname: " Mark " ,
+                 lastname: " bark " ,
+                 height: "6ft" ,
+                 age: "34years" ,
+                 fullname: function(){
+                     return this.firstname + "" + this.lastname;
+                 }
+            
+            };
+            // display data from the object:
+            document.getElementById("demo").innerHTML= person.fullname();
+        </script>
+    </body>
+</html>
