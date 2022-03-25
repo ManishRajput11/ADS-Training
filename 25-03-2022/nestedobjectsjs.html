@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>JavaScript Objects</h2>
+    <p>Access nested objects:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const myObj = {
+            name: "John",
+            age: 30,
+            cars: {
+                car1: "Ford",
+
+                car2: "BMW",
+                car3: "Fiat",
+                cars4: {
+                    name: "manish"
+                }
+            }
+        }
+        let p1 = "cars"
+        let p2 = "car2"
+        let p3 = "cars4" 
+        document.write(myObj.cars.cars4.name);
+    </script>
+
+</body>
+
+</html>
