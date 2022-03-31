@@ -1,18 +1,28 @@
-// import React from 'react';
+import React from 'react';
 
-
-import Components1 from './30-03-2022/Components1'
-
-
-import Components from './30-03-2022/Components'
 import ReactDOM from 'react-dom';
 import './index.css';
-import Props1 from './30-03-2022/Props1'
+
+// import Components1 from './30-03-2022/Components1'
+
+
+// import Components from './30-03-2022/Components'
+// import Props1 from './30-03-2022/Props1'
 // import reportWebVitals from './reportWebVitals';
-import App from './App'
+// import App from './App'
+
+// import Firstcomp from './Firstcomp'
+// import Dynamicdata from './Dynamicdata'
+// import Comp1 from './Comp1'
+// import Composition from './Composition'
+// import Assignment1 from './31-03-2022/Assignment1';
+// import Assignment2 from './31-03-2022/Assignment2';
+// import States from './31-03-2022/States'
+// import States2 from './31-03-2022/States2'
+import Itration from './31-03-2022/Itration'
 
 ReactDOM.render(
-    <Props1 />,
+    <Itration />    ,
   document.getElementById('root')
 );
 
