@@ -1,15 +1,14 @@
-import Expenseitem from './ExpenseItem';
-import logo from './logo.svg';
-import './App.css';
+import ExpenseItem from './first project/Components/ExpenseItem';
 
-  function App() {
+function App(){
     return (
-      <div>
-        <h2> let's get started! </h2>
-        <Expenseitem></Expenseitem>
-      </div>
-
+        <div>
+            <h2>Let's get started</h2>
+        <ExpenseItem></ExpenseItem>
+        </div>
     )
-  }
+
+    
+}
 
 export default App;

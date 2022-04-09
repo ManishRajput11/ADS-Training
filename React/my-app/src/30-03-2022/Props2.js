@@ -1,6 +1,6 @@
 
 
-function Propschild(props) {
+function Props2(props) {
     return (
         <div>
             <h1>
@@ -13,4 +13,4 @@ function Propschild(props) {
         </div>
     )
 }
-export default Propschild
+export default Props2

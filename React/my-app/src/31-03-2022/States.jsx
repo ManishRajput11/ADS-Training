@@ -4,6 +4,7 @@ export default function States() {
     const [name, setName]=useState("Manish")
     function changestate (){
         setName('Rajput')
+        
     }
   return (
     <div>

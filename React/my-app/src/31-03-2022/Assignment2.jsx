@@ -1,4 +1,4 @@
-import Assignment3 from "./Assignment3"
+import Assignment3 from "../Assignment3"
 
 
 function Assignment2(){
