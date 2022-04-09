@@ -15,7 +15,7 @@ import './index.css';
 // import Dynamicdata from './Dynamicdata'
 // import Comp1 from './Comp1'
 // import Composition from './Composition'
-import Assignment1 from './31-03-2022/Assignment1';
+import Assignment1 from '../31-03-2022/Assignment1';
 //  import Assignment2 from './31-03-2022/Assignment2';
 // import States from './31-03-2022/States'
 // import States2 from './31-03-2022/States2'

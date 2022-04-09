@@ -1,6 +1,6 @@
-import React ,{useState}from 'react'
+import React ,{useState,useEffect}from 'react'
 
-export default function ForState() {
+export default function Foruseeffect2() {
 
    
  const [statename,setStatename]=useState('mainsh')
@@ -19,6 +19,12 @@ export default function ForState() {
  function colleage (){
     btechnewbranch('cse')
  }
+  
+ useEffect(()=>{
+    console.log("statename is changed")
+ },[statename])
+
+
   return (
     <div>
         <h1 onClick={tochange}>{statename}</h1>
