@@ -2,24 +2,23 @@ import React ,{useState} from 'react'
 
 export default function () {
     const[firststate,setfirststate]= useState('');
-    const[secondstate,setsecondstate]= useState('heya');
+   const[secondstate,setsecondstate]= useState('');
 
     function hiii(){
-        
-        switch(firststate.length){
+      if(firststate.length==0){
+        setfirststate('hii how r you')
+        setsecondstate('hello ')
+      }else{
+        setfirststate('')
+        setsecondstate('')
 
-             case 0:
-                 setsecondstate('clicked mee');
-                 setfirststate('let him go');
-                 break;
-            default:
-                 setsecondstate('heya');
-                 setfirststate('');
-    
-         }
+      }
+      
 
-        }
-        
+    }
+      
+
+
  
        
     
@@ -29,7 +28,7 @@ export default function () {
     <div>
     <h1>let's get started!</h1>
     {firststate}
-    <button onClick={hiii}> {secondstate}</button>
+    <button onClick={hiii}>{secondstate} click me</button>
     
 
 </div>

@@ -11,10 +11,11 @@ import Context from "./Context";
  import Foruseeffect2 from './Foruseeffect2'
  import Stateassignment from './Stateassignment'
  import Stateassignment2 from './stateassignment2'
- import Stateassignment3 from './stateassignment3'
-
+ import Stateassignment3 from '../src/first project/Componenets/stateassignment3'
+ import Staaateassignment from './first project/Componenets/staaateassignment'
+ import Maincomponent from './Maincomponent'
 // import App from './App';
 // import ForState from './ForState'
 
 
-ReactDOM.render(<Stateassignment3/>, document.getElementById('root'));
+ReactDOM.render(<Maincomponent/>, document.getElementById('root'));
