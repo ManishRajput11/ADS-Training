@@ -1,6 +1,6 @@
 import React from 'react'
 export default function Maincomponent2(props) {
-console.log(props.data)
+
   return (
     <div>
         {props.data.map((val)=>{

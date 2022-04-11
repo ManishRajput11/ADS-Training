@@ -22,7 +22,7 @@ export default function Async() {
       <button onClick={noname}>To Fetch data</button>
       <br/>
       {Isloading && <h1>Loading ....</h1>}
-      {!Isloading && <maincomponent2 data={Fordata} />}
+      {!Isloading && <Maincomponent2 data={Fordata} />}
     </div>
   );
 }
