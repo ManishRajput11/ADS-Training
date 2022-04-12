@@ -17,6 +17,9 @@ import Context from "./Context";
 // import App from './App';
 // import ForState from './ForState'
 import Appp from './FoodOrderingProject/Appp'
+import React from "react";
 
 
-ReactDOM.render(<Appp/>, document.getElementById('root'));
+ReactDOM.render( <Appp/>, document.getElementById('root'));
+    
+            
