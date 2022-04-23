@@ -11,19 +11,8 @@ export default function () {
       }else{
         setfirststate('')
         setsecondstate('')
-
       }
-      
-
     }
-      
-
-
- 
-       
-    
-    
-    
   return (
     <div>
     <h1>let's get started!</h1>

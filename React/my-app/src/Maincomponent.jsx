@@ -1,7 +1,7 @@
 
 import React ,{useState} from 'react'
 import Maincomponent2 from './Maincomponent2'
-export default function Maincomponent() {
+ function Maincomponent() {
     const [Fordata,setForData]=useState([])
     function noname(){
         fetch('https://swapi.dev/api/films/')
@@ -9,11 +9,12 @@ export default function Maincomponent() {
            return response.json()
         })
         .then((data)=>{
-            const moviedata=data.results.map(moviedata=>{
-                return {
-    
+            const moviedata=data.results.map((moviedata)=>{
+                return {    
                     title:moviedata.title,
+                    
                 }
+                
             })
             setForData(moviedata)
         })
@@ -25,3 +26,4 @@ export default function Maincomponent() {
     </div>
   )
 }
+export default Maincomponent

@@ -4,6 +4,7 @@ import Maincomponent2 from "./Maincomponent2";
 export default function Async() {
   const [Fordata, setForData] = useState([]);
   const [Isloading, setIsloading] = useState(false);
+  
   async function noname() {
     setIsloading(true)
     const response = await fetch("https://swapi.dev/api/films/");
