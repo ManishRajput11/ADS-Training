@@ -24,11 +24,12 @@ import MainFileForhooks from './18-04-2022/MainFileForhooks'
 import Form from "./21-04-2022/FormsProject/Form";
 import ForForms from "./21-04-2022/ForForms"
 import OnBlur from "./21-04-2022/ForForms"
+import Checkout from "./FoodOrderingProject/Checkout"
 
 
 
 
 
-ReactDOM.render( <OnBlur/>, document.getElementById('root'));
+ReactDOM.render( <Checkout/>, document.getElementById('root'));
     
             
