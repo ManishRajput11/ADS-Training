@@ -1,9 +1,13 @@
 import React from 'react'
-
 import {useSelector,useDispatch} from 'react-redux'
+
+
+
 const Counter = () => {
   const dispatch=useDispatch()
-  const counter=useSelector(state => state.counter)
+  const counter=useSelector(sdf => sdf.counter)
+
+
   const toggleCounterHandler = () => {
     dispatch({type:'increment' })
   };
