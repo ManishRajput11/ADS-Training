@@ -27,15 +27,17 @@ import { Provider } from "react-redux";
 // import ForForms from "./21-04-2022/ForForms"
 // import OnBlur from "./21-04-2022/ForForms"
 // import Checkout from "./FoodOrderingProject/Checkout"
-import reduxstore from './redux6'
-import Counter from './redux5'
+// import reduxstore from './redux6'
+// import Counter from './redux5'
+import store from './18-05-2022/Store/redux-store'
+import App from './18-05-2022/App'
 
 
 
 
 ReactDOM.render( 
-    <Provider store={reduxstore}>
-        <Counter/>
+    <Provider store={store}>
+        <App/>
     </Provider> 
     , document.getElementById('root'));
     
